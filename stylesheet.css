@@ -398,47 +398,4 @@ header {
 		color: var(--second-color);
 	}
 	.home-text span {
-		font-size: 0.9rem;
-	}
-	.home-text h1 {
-		font-size: 2.5rem;
-	}
-	.home-text h2 {
-		font-size: 1.2rem;
-	}
-	.home-img img {
-		width: 80%;
-	}
-	.shop-container .box {
-		flex: 1 1 20rem;
-		margin-right: 0;
-	}
-	.container {
-		flex-direction: column;
-		align-items: center;
-		transform: translate(0);
-		animation: none;
-	}
-	.about {
-		transform: translate(0);
-		animation: none;
-	}
-}
-
-@media (max-width: 480px) {
-	header {
-		padding: 10px 2%;
-	}
-	section {
-		padding: 50px 2%;
-	}
-	.navbar a {
-		padding: 1rem;
-	}
-	.home-text h1 {
-		font-size: 2rem;
-	}
-	.home-text h2 {
-		font-size: 1rem;
-	}
-}
+		font-size: 0.9
