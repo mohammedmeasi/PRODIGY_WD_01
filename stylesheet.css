@@ -1,3 +1,6 @@
+Sure! Here’s an updated version of your CSS code, which includes changes to the color palette and other minor tweaks:
+
+```css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -12,11 +15,11 @@
 }
 
 :root {
-	--main-color: #FF5733; /* Changed to a bright orange color */
-	--second-color: #2C3E50; /* Changed to a dark blue color */
-	--third-color: #F1C40F; /* Added a new yellow color */
-	--fourth-color: #E74C3C; /* Added a new red color */
-	--fifth-color: #8E44AD; /* Added a new purple color */
+	--main-color: #4CAF50; /* Changed to green */
+	--second-color: #FF9800; /* Changed to orange */
+	--third-color: #2196F3; /* Changed to blue */
+	--fourth-color: #F44336; /* Changed to red */
+	--fifth-color: #9C27B0; /* Changed to purple */
 }
 
 section {
@@ -43,7 +46,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	background: #fff;
-	box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+	box-shadow: 0 4px 41px rgba(14, 55, 54, 0.14);
 	padding: 15px 10%;
 	transition: 0.2s;
 }
@@ -87,7 +90,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	background: #f5f5f5; /* Changed to a light gray background */
+	background: #e0f7fa; /* Changed to a light cyan background */
 	gap: 1rem;
 }
 
@@ -158,7 +161,7 @@ header {
 .heading span {
 	font-size: 1rem;
 	font-weight: 600;
-	color: var(--third-color); /* Changed to yellow */
+	color: var(--third-color); /* Changed to blue */
 }
 
 .heading h1 {
@@ -257,7 +260,7 @@ header {
 }
 
 .delivery-text h2,
-	app-text h2 {
+.app-text h2 {
 	font-size: 1.2rem;
 	color: var(--second-color);
 }
@@ -272,7 +275,7 @@ header {
 .about {
 	display: flex;
 	flex-wrap: wrap;
-	background: #f5f5f5;
+	background: #e0f7fa;
 	gap: 1.5rem;
 	animation-name: slideInright;
 	animation-duration: 1s;
@@ -384,7 +387,7 @@ header {
 		display: flex;
 		flex-direction: column;
 		background: #fff;
-		box-shadow: 0 4px 4px rgb(14 35 54 / 14%);
+		box-shadow: 0 4px 4px rgba(14, 35, 54, 0.14);
 		border-top: 2px solid var(--main-color);
 		transition: 0.2s;
 		text-align: left;
@@ -398,4 +401,4 @@ header {
 		color: var(--second-color);
 	}
 	.home-text span {
-		font-size: 0.
+		font-size: 0.9
